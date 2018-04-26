@@ -1,0 +1,572 @@
+<!doctype html="">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=Windows-1=252">
+<title>Curriculo</title>
+<style>
+/*  CENTRALIZAR O SITE */
+@media all and (min-width: 800px) {
+    body {
+        width: 960px;
+    = 20 margin : auto;
+    }
+}
+
+div#all {
+    position: absolute;
+    float: left;
+    margin: auto;
+    width: 960px;
+    height: 540px;
+    background:;
+    background-image: linear-gradient(#ccc, #666);
+= 20
+}
+
+/* 1  */
+ul#menu {
+    position: relative;
+    width: 960px;
+    float: left;
+    top: -330px;
+    left: 242px;
+    list-style: none;
+    margin: 0px 50px;
+    padding: 0;
+= 09
+}
+
+/* 2 */
+ul#menu li {
+    position: relative;
+    float: left;
+    /* background-image: linear-gradient(#CCC, #999);  */
+}
+
+/* 4 */
+ul#menu ul {
+    display: none;
+    list-style: none;
+    position: relative;
+    left: 0px;
+    margin: 0px 0px;;
+    padding: 0px 0px;
+}
+
+/* 5 */
+ul#menu li:hover > ul {
+    display: block;
+}
+
+/*  MENU DE HORIZONTAL */
+li.list {
+    position: relative;
+    float: left;
+    top: 5px;
+    left: -280px;
+    width: 180px;
+    height: 25px;
+    text-align: center;
+    border-radius: 3px;
+    background-image: linear-gradient(#ccc, #666);
+    padding: 2px 20px;
+    margin: -5px 7px;
+}
+
+li.list p {
+    position: relative;
+    top: -12px;
+    font-family: tahoma;
+    font-size: 14px;
+}
+
+/*  MENU DE HORIZONTAL HOVER */
+li.list:hover {
+    position: relative;
+    left: -280px;
+    margin:;
+    padding: 2px 20px;
+    width: 180px;
+    height: 30px;
+    text-align: center;
+    border-radius: 3px;
+    color: white;
+    cursor: pointer;
+    background-image: linear-gradient(#000, #888);
+}
+
+li#dp {
+    position: absolute;
+    top: -20px;
+    left: -39px;
+    width: 960px;
+    height: 460px;
+    color: black;
+    background-image: linear-gradient(#000, #555);
+}
+
+li#formacao {
+    position: absolute;
+    top: -20px;
+    left: -273px;
+    width: 960px;
+    height: 460px;
+    background-image: linear-gradient(#000, #555);
+}
+
+li#cursos {
+    position: absolute;
+    top: -20px;
+    left: -507px;
+    width: 960px;
+    height: 460px;
+    background-image: linear-gradient(#000, #555);
+}
+
+li#hab {
+    position: absolute;
+    top: -20px;
+    left: -741px;
+    width: 960px;
+    height: 460px;
+    background-image: linear-gradient(#000, #555);
+}
+
+/*-- ----  Container dos Dados Pessoais  ---------*/
+div#dp-cont {
+    position: relative;
+    top: 1px;
+    left: 19px;
+    float: left;
+    width: 454px;
+    height: 430px;
+    background: #CDCDC1;
+    display:; /* none;  */
+}
+
+div#dp-cont p {
+    position: relative;
+    top: 50px;
+    margin: 15px 0px;
+    padding: 2px 0px;
+    text-align: justify;
+    text-indent: 60px;
+    font-family: tahoma;
+    display: block;
+    background: #CDCDC1;
+}
+
+div#imag1 {
+    position: relative;
+    float: right;
+    top: 1px;
+    left: -19px;
+    width: 454px;
+    height: 430px;
+    background: #CDCDC1;
+    display:; /* none;  */
+}
+
+div#imag1 img {
+    position: relative;
+    top: 80px;
+    width: 320px;
+    height: 190px;
+    display:; /* none;  */
+}
+
+/*-- ----  CONATAINER DA FORMAÇÃO ACADÊMICA ---------*/
+div#form-cont {
+    position: relative;
+    float: left;
+    top: 1px;
+    left: 19px;
+    width: 454px;
+    height: 430px;
+    background: #CDCDC1;
+    display:; /* none;  */
+}
+
+div#form-cont p {
+    position: relative;
+    top: 65px;
+    margin: 1px 0px;
+    padding: 2px 0px;
+    text-align: justify;
+    text-indent: 33px;
+    font-family: tahoma;
+    display: block;
+    color: black;
+    background: #CDCDC1;
+}
+
+div#form-cont h3 {
+    position: relative;
+    top: 60px;
+    text-align: justify;
+= 20 margin : 0 px - 15 px;
+    text-indent: 46px;
+    color: #2F4F4F;
+= 20 font-family : tahoma;
+}
+
+div#imag2 {
+    position: relative;
+    float: right;
+    top: 1px;
+    left: -19px;
+    width: 454px;
+    height: 430px;
+    background: #CDCDC1;
+    display:; /* none;  */
+}
+
+div#imag2 img {
+    position: relative;
+    top: 80px;
+    width: 330px;
+    height: 200px;
+    display:; /* none;  */
+}
+
+/*-- ----  CONTE=DADO DE CURSOS  ---------*/
+div#cursos-cont {
+    position: relative;
+    float: left;
+    top: 1px;
+    left: 19px;
+    width: 454px;
+    height: 430px;
+    background: #CDCDC1;
+    display:; /* none;  */
+}
+
+div#cursos-cont p {
+    position: relative;
+    top: 50px;
+    margin: 15px 0px;
+    padding: 2px 0px;
+    text-align: justify;
+    text-indent: 60px;
+    font-family: tahoma;
+    display: block;
+    color: black;
+    background: #CDCDC1;
+}
+
+div#imag3 {
+    position: relative;
+    float: right;
+    top: 1px;
+    left: -19px;
+    width: 454px;
+    height: 430px;
+    background: #EEE8CD;
+    display:; /* none;  */
+}
+
+div#imag3 img {
+    position: relative;
+    top: 20px;
+    width: 340px;
+    height: 300px;
+    display:; /* none;  */
+}
+
+/*-- ----  CONTE=DADO HABILIDADES ---------*/
+div#hab-cont {
+    position: relative;
+    float: left;
+    top: 1px;
+    left: 19px;
+    width: 454px;
+    height: 430px;
+    background: #CDCDC1;
+    display:; /* none;  */
+}
+
+div#hab-cont p {
+    position: relative;
+    top: 50px;
+    margin: 15px 0px;
+    padding: 2px 0px;
+    text-align: justify;
+    text-indent: 60px;
+    font-family: tahoma;
+    display: block;
+    color: black;
+    background: #CDCDC1;
+}
+
+div#imag4 {
+    position: relative;
+    float: right;
+    top: 1px;
+    left: -19px;
+    width: 454px;
+    height: 430px;
+    background: #EEE8CD;
+    display:; /* none;  */
+}
+
+div#imag4 img {
+    position: relative;
+    top: 20px;
+    width: 340px;
+    height: 300px;
+    display:; /* none;  */
+}
+
+/* SHAPE NORMAL (DADOS PESSOAIS) SUB*/
+ul#menu li:hover:first-child > p:after {
+    content: '';
+    position: absolute;
+    left: 74px;
+    top: 20px;
+    width: 0;
+    height: 0;
+    border-left: 9px solid transparent;
+    border-right: 9px solid transparent;
+    border-bottom: 12px solid #CDCDC1;
+}
+
+/* SHAPE NORMAL (FORMA=C7=C3O) SUB*/
+/*ul#menu li:hover:first-child > p:after*/
+li:hover:nth-child(2) > p:after {
+    content: '';
+    position: absolute;
+    left: 74px;
+    top: 20px;
+    width: 0;
+    height: 0;
+    border-left: 9px solid transparent;
+    border-right: 9px solid transparent;
+    border-bottom: 12px solid #CDCDC1;
+}
+
+/* SHAPE NORMAL (CURSOS) SUB*/
+/*ul#menu li:hover:first-child > p:after*/
+li:hover:nth-child(3) > p:after {
+    content: '';
+    position: absolute;
+    left: 74px;
+    top: 20px;
+    width: 0;
+    height: 0;
+    border-left: 9px solid transparent;
+    border-right: 9px solid transparent;
+    border-bottom: 12px solid #CDCDC1;
+}
+
+/* SHAPE NORMAL (HABILIDADES) SUB*/
+ul#menu li:hover:last-child > p:after {
+    content: '';
+    position: absolute;
+    left: 74px;
+    top: 20px;
+    width: 0;
+    height: 0;
+    border-left: 9px solid transparent;
+    border-right: 9px solid transparent;
+    border-bottom: 12px solid #CDCDC1;
+}
+
+/* SLIDER SHOW */
+div.slider {
+    position: relative;
+    float: left;
+    top: 100px;
+    left: 100px;
+    height: 350px;
+    width: 760px;
+    margin: auto;
+    border: 1px #c3c3c3;
+    /* AQUI ESCONDE AS IMAGENS */
+    overflow: hidden;
+= 20
+}
+
+div.slider ul {
+    display: flex;
+    padding: 0px 0px;;
+    /* AQUI DETERMINAR ESPA=C7O PRA ESCONDER 400% */
+    width: 400%;
+    animation: mudar 10s infinite alternate;
+    /* animation-direction: alternate; */
+}
+
+div.slider li {
+    height: 350px;
+    width: 760px;
+    list-style: none;
+}
+
+div.slider img {
+    position: absolute;
+    top: 0px;
+    height: 350px;
+    width: 760px;
+}
+
+@keyframes mudar {
+    /*  TEMPO DA 1 IMAGEM */
+    0% {
+        margin-left: 0px;
+    }
+    22% {
+        margin-left: 0px;
+    }
+    /* TEMPO DA 2 IMAGEM */
+    27% {
+        margin-left: -100%;
+    }
+    47% {
+        margin-left: -100%;
+    }
+    /* TEMPO DA 3 IMAGEM */
+    52% {
+        margin-left: -200%;
+    }
+    72% {
+        margin-left: -200%;
+    }
+    /* TEMPO DA 3 IMAGEM */
+    80% {
+        margin-left: -300%;
+    }
+    100% {
+        margin-left: -300%;
+    }
+}
+</style>
+</head>
+<body bgcolor="#FFFFFF" text="#000000">
+<div id="all">
+    <!-- TODO CONTE=DADO -->
+    <div class="slider">
+        <ul>
+            <li><img src="cid:part1.08000309.08000400@hotmail.com" alt=""></li>
+            <li
+            =
+            ><img src="cid:part2.08030203.02010207@hotmail.com" alt=""> </li>
+            <li><i=
+                mg src="cid:part3.00090909.02090506@hotmail.com" alt="">
+            </li>
+            <li><img =
+                src="cid:part4.03020809.06020503@hotmail.com" alt=""> </li>
+        </ul>
+    </div>
+    <div id="menu">
+        &nbsp;&nbsp;
+        <ul id="menu">
+            <li class="list">
+                <p>Dados Pessoais </p>
+                <ul>
+                    <li id="dp">
+                        <div id="dp-cont">
+                            <p>Brasileiro, Amasiado, 29 anos </p>
+
+                            <p>Rua: Francisco Izidoro da Silva, n=FAmero 606 </p>
+
+                            <p>Bairro: Ant=F4nio Palocci </p>
+
+                            <p>Cidade: Ribeir=E3o Preto </p>
+
+                            <p>cel: (16) 99148 - 2275 (claro) </p>
+
+                            <p>cel: (16) 98203 - 2558 (tim) </p>
+
+                            <p>E-mail: <a class="moz-txt-link-abbreviated" href="mailto:wagner_gcas=
+                                tro@hotmail.com">
+                                wagner_gcastro@hotmail.com</a>
+                            </p>
+                        </div>
+                        <div id="imag1">
+                            <img src="cid:part5.02070008.04040807@hotmail.com"> </d=
+                            iv>
+                    </li>
+                </ul>
+            </li>
+            <li class="list">
+                <p>Forma=E7=E3o Acad=EAmica </p>
+                <ul>
+                    <li id="formacao">
+                        <div id="form-cont">
+                            <p></p>
+
+                            <h3>Ensino M=E9dio Completo - 2004 </h3>
+
+                            <p>Escola Dr. Oscar de Moura Lacerda </p>
+
+                            <p>Ribeir=E3o Preto - SP </p>
+                            <br>&nbsp; <br>
+
+                            <p></p>
+
+                            <h3>T=E9cnico em Inform=E1tica para Internet</h3>
+
+                            <p>Escola Centro Paula de Souza Matimiano </p>
+
+                            <p>Ribeir=E3o Preto - SP </p>
+
+                            <p>Previs=E3o de T=E9rmino Agosto de 2017 </p>
+                        </div>
+                        <div id="imag2"><img src="cid:part6.04010500.00050509@hotmail.com"></div>
+                    </li>
+                </ul>
+            </li>
+            <li class="list">
+                <p>Cursos </p>
+                <ul>
+                    <li id="cursos">
+                        <div id="cursos-cont">
+                            <p>Brasileiro, Amasiado, 29 anos </p>
+
+                            <p>Rua: Francisco Izidoro da Silva, n=FAmero 606 </p>
+
+                            <p>Bairro: Ant=F4nio Palocci </p>
+
+                            <p>Cidade: Ribeir=E3o Preto </p>
+
+                            <p>cel: (16) 99148 - 2275 (claro) </p>
+
+                            <p>cel: (16) 98203 - 2558 (tim) </p>
+
+                            <p>E-mail: <a class="moz-txt-link-abbreviated" href="mailto:wagner_gcas=tro@hotmail.com">
+                                wagner_gcastro@hotmail.com</a>
+                            </p>
+                        </div>
+                        <div id="imag3">
+                            <img src=3"cid:part7.04070304.01090701@hotmail.com"> </d=iv>
+                    </li>
+                </ul>
+            </li>
+            <li class="list">
+                <p>Habilidades </p>
+                <ul>
+                    <li id="hab">
+                        <div id="hab-cont">
+                            <p>Brasileiro, Amasiado, 29 anos </p>
+
+                            <p>Rua: Francisco Izidoro da Silva, n=FAmero 606 </p>
+
+                            <p>Bairro: Ant=F4nio Palocci </p>
+
+                            <p>Cidade: Ribeir=E3o Preto </p>
+
+                            <p>cel: (16) 99148 - 2275 (claro) </p>
+
+                            <p>cel: (16) 98203 - 2558 (tim) </p>
+
+                            <p>E-mail: <a class="moz-txt-link-abbreviated" href="mailto:wagner_gcastro@hotmail.com" wagner_gcastro@hotmail.com</a> </p>
+                        </div>
+                        <div id="imag3"><img src=3"cid:part7.04070304.01090701@hotmail.com"> </d=
+                            iv>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</div>
+</body>
+</html>

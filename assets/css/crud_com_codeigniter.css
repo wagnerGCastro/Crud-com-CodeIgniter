@@ -1,0 +1,65 @@
+/*CONFIGURAÇÕES GERAIS */
+         
+
+* {margin:0px ; padding:0px;}
+body{padding: 0px 0px; margin:0px 0px; background: #ccc;}
+.container {background:#efefef;}
+
+/* HEADER_CRUD  */
+#header {background: #fefefe}
+
+/* MAIN_CRUD  */
+#main-content {background:; }
+.main {margin-top:-10px;  background: rgba(28, 74, 103, 0.19);  }
+.main section { padding: 0px 10px; background: rgba(28, 74, 103, 0.19);  }
+
+
+/* ASIDE_CRUD  */
+#aside { width:100%; background: rgba(28, 74, 103, 0.18); border:0px solid #000}
+#aside nav { padding:0px; margin:0px; }
+#aside nav ul {padding:10px; margin:0px; }
+
+/* FOOTER_CRUD  */
+#footer { min-height: 50px;  font-size: 14px; font-family: 'Roboto', sans-serif; overflow: auto; color:#444; padding:0; margin:0px; }
+#footer nav {}
+#footer nav ul {list-style: none; margin-left: -15px; }
+#footer nav ul li  {margin-bottom:5px}
+#footer nav ul li a {}
+#footer nav ul li a > #github svg
+ {
+    background: #fff; width:31px;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+}
+.f-git {margin-top: 10px;  color:#222; position: absolute; margin-left: 70px;  }
+
+
+/*Animações */
+#github  {
+    position: absolute;
+    margin-top: 0px; margin-left: 30px;
+    -webkit-animation-name: girar; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 9s; /* Safari 4.0 - 8.0 */
+    -webkit-animation-iteration-count: infinite; /* Safari 4.0 - 8.0 */
+    animation-name: girar;
+    animation-duration: 9s;
+    animation-iteration-count: infinite;
+    -webkit-animation: girar 9s linear infinite alternate;
+}
+
+@-webkit-keyframes girar {
+    0% {
+        -webkit-transform:rotate(0deg);
+    }
+    50% {
+
+        -webkit-transform:rotate(180deg);
+    }
+    100% {
+        -webkit-transform:rotate(360deg);
+    }
+}
+
+/*  Ajustes de Icons */
+#fa-edit-1 {padding-top: 2px; font-size: 25px; margin-right: 2px; }
